@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
                 <div id="logo">
-                        <img id="preload" src="images/logo.png" style="display:none; width:100px; height:100px;" />
+                    <a href="#" data-toggle="tooltip" title="Laszlo's Logo"><img id="preload" src="images/logo.png" style="display:none; width:100px; height:100px;" /></a>
                     </div>
  
             <a class="navbar-brand" href="#"><h4>Laszlo Kovesdi</h4></a>
@@ -177,11 +177,16 @@
 
 <section class="aboutme" id="page2">
         <div class="jumbotron">
-                <h1 style="text-align: center">About Me</h1><br>
-                <p class="lead" style="text-align: center">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <img class="aboutmeimage" src="images/face.jpg" style="width: 200px; height: auto;"
-                <hr class="my-4">
-                <p style="text-align: center">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                                               
+                <button class="readmore" data-toggle="collapse" data-target="#demo">Read About Me</button>
+                
+                <img class="aboutmeimage" src="images/face.jpg" style="width: 200px; height: auto;">
+
+
+                <div id="demo" class="collapse">
+                    <p class="lead" style="text-align: center">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                </div>
+               
               </div>
             </section>
     
@@ -218,6 +223,19 @@
                                                 <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
                                                     <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
                                                 </div>
+                                                <a href="#" data-toggle="popover" title="Because" data-content="he is the best there ever was.">Why Contact Laszlo?</a>
+
+                                                <br> <br>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      I am a...
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                      <a class="dropdown-item" href="#">Recruiter</a>
+                                                      <a class="dropdown-item" href="#">Employer</a>
+                                                      <a class="dropdown-item" href="#">Start Up looking for help</a>
+                                                    </div>
+                                                  </div>
                                     </form>
                                 </div>
                             </div>
@@ -232,7 +250,7 @@
                   </div>
             </p>
         </div>
-    
+
 
         <footer class="py-sm-5">
                 <div class="container">

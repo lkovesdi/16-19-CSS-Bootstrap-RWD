@@ -122,9 +122,20 @@ ol, ul {
 
 .aboutmeimage {
     border-radius: 8px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+}
+
+.readmore {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border-width: .5px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
