@@ -139,3 +139,43 @@ ol, ul {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
+.clearButton {
+    background-color: #ffffff00;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.input-group {
+    margin-left: 10px;
+}
+
+
+.searchresults {
+    margin-top: 3%;
+    color: #ffffff;
+}
+
+.resultsmeter {
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr { 
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+li {
+    color: #ffffff;
+}
